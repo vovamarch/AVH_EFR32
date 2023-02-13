@@ -11,8 +11,10 @@ The `avh_run_efr32mg24.py` demonstrates key steps in using [AVH python API](http
  - Read the temperature and LEDs status.
  - Print the UART output.
  - Delete the instance (or if configured keep it for future use).
- 
-Verified with python 3.11.
+
+Correctness of the execution can be followed up in the output.
+
+Verified with python 3.11.2.
 
 ## Use instructions
 
@@ -99,5 +101,6 @@ done.
 Execution completed!
 >
 ```
+It can be seen from API requests that temperature increase by 10 degrees toggles LED0, and this is also confirmed with the UART output from the board.
 
 6) If script is stuck or failed and instance is not deleted, delete it via web UI.
