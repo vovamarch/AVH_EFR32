@@ -2,7 +2,7 @@
 Arm Virtual Hardware example for EFR32
 
 ## Overview
-The `avh_run_efr32mg24.py` demonstrates key steps in using AVH python API for automated program executions. The execution flow is as follows:
+The `avh_run_efr32mg24.py` demonstrates key steps in using [AVH python API](https://github.com/arm-software/avh-api) for automated program executions. The execution flow is as follows:
  - Connect to the AVH API.
  - Create a new virtual machine instance of EFR32MG24 board (or reconfigure to use existing instance).
  - Load firmware binary `i2cspm_kernel_freertos.axf` (I2C SPM FreeRTOS Application build in Simplicity Studio) to the VM instance and reboots it.
@@ -100,4 +100,4 @@ Execution completed!
 >
 ```
 
-6) If program is stuck and instance is not deleted, delete it via web UI.
+6) If script is stuck or failed and instance is not deleted, delete it via web UI.
