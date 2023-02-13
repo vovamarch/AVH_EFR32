@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+#
+# Python requirements for avh_run_....py script
+#
+#distutils
+asyncio~=3.4.3
+os
+websockets
+sys
+time
+avh_api_async
+ssl
+
