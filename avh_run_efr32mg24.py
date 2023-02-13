@@ -1,7 +1,6 @@
 # Required: Python 3.11 or later. Modules see below.
 # No VPN connection needed (login via apiToken)
 import asyncio
-from distutils.log import error
 import os
 from websockets import client as ws
 import sys
@@ -202,8 +201,8 @@ async def main():
       if error != None:
         raise error
 
-# Run with timeout of 150 seconds
-asyncio.run(asyncio.wait_for(main(),150)) 
+# Run with timeout of 60 seconds
+asyncio.run(asyncio.wait_for(main(),60)) 
 
 print("Execution completed!")
 exit(0)

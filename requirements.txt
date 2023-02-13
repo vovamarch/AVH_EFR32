@@ -1,13 +1,9 @@
 # -*- coding: utf-8 -*-
 #
-# Python requirements for avh_run_....py script
+# Python requirements for avh_run_efr32mg24.py script
 #
-#distutils
 asyncio~=3.4.3
-os
 websockets
-sys
-time
-avh_api_async
-ssl
+avh_api_async~=1.0.3
+
 
